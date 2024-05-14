@@ -13,7 +13,7 @@ header{
 	}
 }
 main{
-	margin-top: 8rem;
+	margin-top: 8.3rem;
 }
 .img,img {
 	max-width: 100%;
@@ -1185,18 +1185,10 @@ ul.minicart .cart-price span {
 }
 .product-img img {
 	height: 100%;
-	
 	object-fit: cover;
 	object-position: center;
 }
-img.secondary-img {
-	position: absolute;
-	left: 0;
-	top: 0;
-	transition: .3s;
-	opacity: 0;
-}
-.product-wrapper:hover img.secondary-img{opacity: 1;z-index: 1;}
+
 /* roduct-action */
 .product-action {
 	position: absolute;
@@ -1673,7 +1665,6 @@ img.secondary-img {
 	color: #fe4536;
 }
 .footer-banner{
-	width: 600px;
 	margin-inline: auto;
 }
 .contact-list li i {
